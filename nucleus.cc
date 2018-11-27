@@ -22,6 +22,7 @@ main(int argc, char *argv[])
   Section *sec;
   Symbol *sym;
   std::list<DisasmSection> disasm;
+  // uint64_t base_vma_addr;
   CFG cfg;
 
   set_exception_handlers();

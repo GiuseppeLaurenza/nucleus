@@ -423,7 +423,7 @@ fail_arch:
 
   /* Symbol handling is best-effort only (they may not even be present) */
   load_symbols_bfd(bfd_h, bin);
-  load_dynsym_bfd(bfd_h, bin);
+  // load_dynsym_bfd(bfd_h, bin);
 
   if(load_sections_bfd(bfd_h, bin) < 0) goto fail;
 
